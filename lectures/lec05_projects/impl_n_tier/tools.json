@@ -1,0 +1,26 @@
+[
+  {
+    "id": "20250827_111016_113626",
+    "name": "drill",
+    "description": "my drill",
+    "photo": "",
+    "contact_info": {
+      "name": "rodion",
+      "phone": "000",
+      "email": ""
+    },
+    "date_added": "2025-08-27 11:10"
+  },
+  {
+    "id": "20250827_111036_410157",
+    "name": "another drill",
+    "description": "it costs money",
+    "photo": "",
+    "contact_info": {
+      "name": "rodion",
+      "phone": "000",
+      "email": ""
+    },
+    "date_added": "2025-08-27 11:10"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "20250827_105230",
+    "name": "a",
+    "description": "b",
+    "photo": "",
+    "contact_name": "rodion",
+    "phone": "000",
+    "email": "",
+    "date_added": "2025-08-27 10:52"
+  },
+  {
+    "id": "20250827_105310",
+    "name": "drill",
+    "description": "my drill. very good one",
+    "photo": "",
+    "contact_name": "rodion",
+    "phone": "000",
+    "email": "gmail@mail.com",
+    "date_added": "2025-08-27 10:53"
+  }
+]

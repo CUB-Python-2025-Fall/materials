@@ -1,0 +1,42 @@
+{
+    "products": [
+      {"id": 1, "name": "Coffee", "price": 4.50},
+      {"id": 2, "name": "Tea",    "price": 3.00},
+      {"id": 3, "name": "Cookie", "price": 2.50}
+    ],
+    "customers": [
+      {"id": 1, "name": "Alice"},
+      {"id": 2, "name": "Bob"},
+      {"id": 3, "name": "Cara"}
+    ],
+    "orders": [
+      {
+        "id": 1001,
+        "customer_id": 1,
+        "date": "2025-09-05",
+        "items": [
+          {"product": {"id": 1, "name": "Coffee", "price": 4.50}, "qty": 2},
+          {"product": {"id": 3, "name": "Cookie", "price": 2.50}, "qty": 1}
+        ]
+      },
+      {
+        "id": 1002,
+        "customer_id": 2,
+        "date": "2025-09-08",
+        "items": [
+          {"product": {"id": 2, "name": "Tea", "price": 3.00}, "qty": 1},
+          {"product": {"id": 1, "name": "Coffee", "price": 4.50}, "qty": 1}
+        ]
+      },
+      {
+        "id": 1003,
+        "customer_id": 3,
+        "date": "2025-09-11",
+        "items": [
+          {"product": {"id": 2, "name": "Tea", "price": 3.00}, "qty": 2},
+          {"product": {"id": 3, "name": "Cookie", "price": 2.50}, "qty": 3}
+        ]
+      }
+    ]
+}
+  

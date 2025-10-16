@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "word_analyzer"
+version = "0.0.1"
+authors = [{name = "Nikita Breskanu", email = "nbreskanu73@gmail.com"}]
+description = "Print out word statistics from the given text file"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "spacy>=3.7.4",
+    "nltk>=3.8.1",
+    "tqdm>=4.67.1"
+]
+
+[project.scripts]
+word_analyzer = "word_analyzer.cli:main"

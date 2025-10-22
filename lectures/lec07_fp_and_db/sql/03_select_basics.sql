@@ -1,4 +1,4 @@
-SELECT * FROM customer;
+SELECT * FROM orders;
 
 SELECT id, total
 FROM orders
